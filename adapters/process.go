@@ -104,5 +104,5 @@ func ProcessGet(table, field, value, page, pagesize string) []byte {
 }
 
 func ProcessPost(j *jason.Object, table string) string {
-return nil
+return "not implemented"
 }

@@ -3,9 +3,13 @@ Create a rest api from mariadb for a database. This project was motivated by [pr
 
 ## The Works:
 
+
+
 To install run,
+
 ```
-go install github.com/vyasgiridhar/qrest/qrest
+go get -v github.com/hendra009/qrest1/qrest
+go install github.com/hendra009/qrest1/qrest
 ```
 
 To start the rest server,

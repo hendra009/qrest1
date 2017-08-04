@@ -53,7 +53,7 @@ func ParsePut(rw http.ResponseWriter, req *http.Request) {
 }
 
 func ParsePost(rw http.ResponseWriter, req *http.Request) {
-	args := req.URL.Query()
+	//args := req.URL.Query()
 	vars := mux.Vars(req)
 
 	table := vars["table"]

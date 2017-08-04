@@ -80,7 +80,7 @@ func Start(c config.Config) {
 
 	srv := &http.Server{
 		Handler:      CreateMux(),
-		Addr:         "127.0.0.1:" + strconv.Itoa(c.HTTPPort),
+		Addr:         "192.168.0.44:" + strconv.Itoa(c.HTTPPort),
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}

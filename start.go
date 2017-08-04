@@ -8,8 +8,8 @@ import (
 
 	"github.com/antonholmquist/jason"
 	"github.com/gorilla/mux"
-	"github.com/vyasgiridhar/qrest/adapters"
-	"github.com/vyasgiridhar/qrest/config"
+	"github.com/hendra009/qrest1/adapters"
+	"github.com/hendra009/qrest1/config"
 )
 
 func ParseGet(rw http.ResponseWriter, req *http.Request) {

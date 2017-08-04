@@ -62,14 +62,14 @@ func ParsePost(rw http.ResponseWriter, req *http.Request) {
 		log.Println("Malformed JSON")
 		rw.Write([]byte("Malformed JSON"))
 	}
-	adapters.PorcessPost(v, table)
+	adapters.ProcessPost(v, table)
 }
 
 func CreateMux() *mux.Router {
 	r := mux.NewRouter()
 	r.HandleFunc("/{table}", ParseGet).Methods("GET")
 	r.HandleFunc("/{table}", ParsePut).Methods("PUT")
-	r.HandleFunc("/{table}")
+	r.HandleFunc("/{table}", ParsePost).Methods("POST")
 	return r
 }
 

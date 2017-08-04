@@ -10,7 +10,7 @@ import (
 
 	"github.com/antonholmquist/jason"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/vyasgiridhar/qrest/config"
+	"github.com/hendra009/qrest1/config"
 )
 
 func CheckDatabase(name string) {

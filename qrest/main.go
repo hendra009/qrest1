@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"github.com/vyasgiridhar/qrest"
-	"github.com/vyasgiridhar/qrest/config"
+	"github.com/hendra009/qrest1"
+	"github.com/hendra009/qrest1/config"
 )
 
 func main() {
